@@ -15,4 +15,4 @@ function get() {
 
 // DOMContentLoadedを指定しても取得できない
 // FIX:
-setTimeout(get, 10000);
+setTimeout(get, 5000);
