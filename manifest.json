@@ -5,5 +5,11 @@
   "manifest_version": 3,
   "action": {
     "default_popup": "popup.html"
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.udemy.com/course/*"],
+      "js": ["content.js"]
+    }
+  ]
 }
