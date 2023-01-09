@@ -11,16 +11,6 @@ function get() {
     });
     fixText = text.split('.').join('.\n\n');
     console.log(fixText);
-
-    // TODO:ぶつ切りにならないように5000文字ずつに分ける
-
-    // TODO:deepl free apiの使用
-    // TODO:apiは別ファイルに分ける
-    // https://qiita.com/rihok/items/962890b4b86ea052e54c
-
-    // 翻訳語の文字をログ出力
 }
 
-// DOMContentLoadedを指定しても取得できない
-// FIX:
 setTimeout(get, 5000);
